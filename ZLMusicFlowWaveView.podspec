@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zhxnlai/ZLMusicFlowWaveView.git", :tag => "0.0.1" }
   s.source_files = "ZLMusicFlowWaveView/*.{h,m}"
   s.requires_arc = true
-  s.dependency "EZAudio", "ZLSinusWaveView"
+  s.dependency "ZLSinusWaveView"
 end
