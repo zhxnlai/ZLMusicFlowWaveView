@@ -1,0 +1,13 @@
+PODS:
+  - EZAudio (0.0.6)
+  - ZLSinusWaveView (0.0.1):
+    - EZAudio (~> 0.0.5)
+
+DEPENDENCIES:
+  - ZLSinusWaveView
+
+SPEC CHECKSUMS:
+  EZAudio: 2f2e5a5094d29ab91d45b229a75c3c31ee26ed1f
+  ZLSinusWaveView: 07fbe9519d856b354b04b35a733597c0a3d245f7
+
+COCOAPODS: 0.34.2
