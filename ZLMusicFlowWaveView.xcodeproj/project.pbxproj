@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4654D5061B7B33F2007C9145 /* ZLMusicFlowWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4654D5051B7B33F2007C9145 /* ZLMusicFlowWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4654D5111B7B343D007C9145 /* ZLMusicFlowDecorativeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4654D50D1B7B343D007C9145 /* ZLMusicFlowDecorativeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4654D5121B7B343D007C9145 /* ZLMusicFlowDecorativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4654D50E1B7B343D007C9145 /* ZLMusicFlowDecorativeView.m */; };
+		4654D5131B7B343D007C9145 /* ZLMusicFlowWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4654D50F1B7B343D007C9145 /* ZLMusicFlowWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4654D5141B7B343D007C9145 /* ZLMusicFlowWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4654D5101B7B343D007C9145 /* ZLMusicFlowWaveView.m */; };
+		4654D5171B7B3481007C9145 /* EZAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4654D5151B7B3481007C9145 /* EZAudio.framework */; };
+		4654D5181B7B3481007C9145 /* ZLSinusWaveView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4654D5161B7B3481007C9145 /* ZLSinusWaveView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4654D5021B7B33F2007C9145 /* ZLMusicFlowWaveView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLMusicFlowWaveView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4654D5051B7B33F2007C9145 /* ZLMusicFlowWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMusicFlowWaveView.h; sourceTree = "<group>"; };
 		4654D5071B7B33F2007C9145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4654D50D1B7B343D007C9145 /* ZLMusicFlowDecorativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMusicFlowDecorativeView.h; sourceTree = "<group>"; };
+		4654D50E1B7B343D007C9145 /* ZLMusicFlowDecorativeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMusicFlowDecorativeView.m; sourceTree = "<group>"; };
+		4654D50F1B7B343D007C9145 /* ZLMusicFlowWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMusicFlowWaveView.h; sourceTree = "<group>"; };
+		4654D5101B7B343D007C9145 /* ZLMusicFlowWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMusicFlowWaveView.m; sourceTree = "<group>"; };
+		4654D5151B7B3481007C9145 /* EZAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EZAudio.framework; path = Carthage/Build/iOS/EZAudio.framework; sourceTree = "<group>"; };
+		4654D5161B7B3481007C9145 /* ZLSinusWaveView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZLSinusWaveView.framework; path = Carthage/Build/iOS/ZLSinusWaveView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4654D5171B7B3481007C9145 /* EZAudio.framework in Frameworks */,
+				4654D5181B7B3481007C9145 /* ZLSinusWaveView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +44,7 @@
 			children = (
 				4654D5041B7B33F2007C9145 /* ZLMusicFlowWaveView */,
 				4654D5031B7B33F2007C9145 /* Products */,
+				4654D5191B7B3484007C9145 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +59,22 @@
 		4654D5041B7B33F2007C9145 /* ZLMusicFlowWaveView */ = {
 			isa = PBXGroup;
 			children = (
-				4654D5051B7B33F2007C9145 /* ZLMusicFlowWaveView.h */,
+				4654D50D1B7B343D007C9145 /* ZLMusicFlowDecorativeView.h */,
+				4654D50E1B7B343D007C9145 /* ZLMusicFlowDecorativeView.m */,
+				4654D50F1B7B343D007C9145 /* ZLMusicFlowWaveView.h */,
+				4654D5101B7B343D007C9145 /* ZLMusicFlowWaveView.m */,
 				4654D5071B7B33F2007C9145 /* Info.plist */,
 			);
 			path = ZLMusicFlowWaveView;
+			sourceTree = "<group>";
+		};
+		4654D5191B7B3484007C9145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4654D5151B7B3481007C9145 /* EZAudio.framework */,
+				4654D5161B7B3481007C9145 /* ZLSinusWaveView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +84,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4654D5061B7B33F2007C9145 /* ZLMusicFlowWaveView.h in Headers */,
+				4654D5131B7B343D007C9145 /* ZLMusicFlowWaveView.h in Headers */,
+				4654D5111B7B343D007C9145 /* ZLMusicFlowDecorativeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4654D5121B7B343D007C9145 /* ZLMusicFlowDecorativeView.m in Sources */,
+				4654D5141B7B343D007C9145 /* ZLMusicFlowWaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +259,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ZLMusicFlowWaveView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -247,6 +279,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ZLMusicFlowWaveView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -275,6 +311,7 @@
 				4654D50C1B7B33F2007C9145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
