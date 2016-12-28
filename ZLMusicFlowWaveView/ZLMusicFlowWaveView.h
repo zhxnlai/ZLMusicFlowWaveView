@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Zhixuan Lai. All rights reserved.
 //
 
-#import "ZLSinusWaveView.h"
+#import <ZLSinusWaveView/ZLSinusWaveView.h>
 
 @interface ZLMusicFlowWaveView : ZLSinusWaveView
 
